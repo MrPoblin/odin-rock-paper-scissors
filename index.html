@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Check the console for the results!</h1>
-    <script src="javascript.js"></script>
+    <div>
+        <button class="select" data-game="rock">Rock</button>
+        <button class="select" data-game="paper">Paper</button>
+        <button class="select" data-game="scissors">Scissors</button>
+    </div>
+    <div class="results"></div>
+    <div class="score">
+        <div>Your score:</div>
+        <div class="human">0</div>
+    </div>
+    <div class="score">
+        <div>Computer score: </div>
+        <div class="computer">0</div>
+    </div>
+    <div class="winner"></div>
 </body>
 </html>
